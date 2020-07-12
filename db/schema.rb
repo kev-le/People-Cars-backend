@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_12_001652) do
+ActiveRecord::Schema.define(version: 2020_07_12_021545) do
 
   create_table "cars", force: :cascade do |t|
     t.integer "personId"
@@ -31,4 +31,5 @@ ActiveRecord::Schema.define(version: 2020_07_12_001652) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "cars", "people", column: "personId"
 end
