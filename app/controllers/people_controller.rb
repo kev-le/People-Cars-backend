@@ -3,9 +3,10 @@ class PeopleController < ApplicationController
     # skipping CSRF verification
     skip_before_action :verify_authenticity_token
 
+    # gets list of people w/ cars they have
     def index
         @people = Person.all
-        render json: @people
+        render :json => @people, :include => :cars
     end
 
     def show
