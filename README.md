@@ -2,8 +2,9 @@
 
 ### Installation Steps:
 1. run `bundle install`
-2. run `rails db:migrate`
-3. run `rails server`
+2. run `yarn install`
+3. run `rails db:migrate` or `ruby bin\rails db:migrate` if on windows
+4. run `rails server` or `ruby bin\rails server` if on windows
 
 The Rails web server should now be running on port 3000.
 
