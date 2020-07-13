@@ -1,24 +1,12 @@
-# README
+# People and Cars Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Installation Steps:
+1. run `bundle install`
+2. run `rails db:migrate`
+3. run `rails server`
 
-Things you may want to cover:
+The Rails web server should now be running on port 3000.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Built With:
+* Ruby 2.6.6
+* Rails 6.0.3.2
